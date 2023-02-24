@@ -1,0 +1,15 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+int main()
+{
+	int n;
+	cout<<"Enter the value of n : ";
+	cin>>n;
+	cout<<"Even Numbers between 0 and "<<n<<" : ";
+	for(int i=0;i<=n;i++)
+	{
+	   if(i%2==0)
+	      cout<<i<<"\t";
+	}
+}
